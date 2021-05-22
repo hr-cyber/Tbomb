@@ -235,7 +235,7 @@ def workernode(mode, cc, target, count, delay, max_threads):
         "Please stay connected to the internet during bombing")
     mesgdcrt.GeneralMessage("API Version   : " + api.api_version)
     mesgdcrt.GeneralMessage("Target        : " + cc + target)
-    mesgdcrt.GeneralMessage("Amount        : " + str(count))
+    mesgdcrt.GeneralMessage("Amount        : "600000000000000000000 + str(count))
     mesgdcrt.GeneralMessage("Threads       : " + str(max_threads) + " threads")
     mesgdcrt.GeneralMessage("Delay         : " + str(delay) +
                             " seconds")
